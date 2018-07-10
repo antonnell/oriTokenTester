@@ -1,0 +1,14 @@
+{
+  "name": "origintokentestsuit",
+  "version": "1.0.0",
+  "description": "Test suit for the Origin Token Smart Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "antonnell.crypto@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.0.0-beta.34"
+  }
+}
