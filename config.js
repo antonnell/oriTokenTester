@@ -1,9 +1,13 @@
 var config = function() {
   return {
-    privateKey: "4030c4d89f2f6322bbb955d49f0ae71f9738692f833c30f78cd2fc362187a6e2",
-    originTokenAddress: "0xdea860db0a3eA4614E373701bc30413FF8d02714",
-    provider: "http://localhost:9545",
-    originTokenABI:[
+    privateKey0: "4030c4d89f2f6322bbb955d49f0ae71f9738692f833c30f78cd2fc362187a6e2",
+    privateKey1: "7534b9f429ccb632885c4b7ad9db6bed773a1811f4c8cacd8484b19bab4c3321",
+    privateKey2: "259b2c9eed825017877ea9832b6a1fe45692557a1abe9e4961d0c2a91860a4dd",
+    privateKey3: "acfdf5a92b43c6af3021b08b54bc5dea7da1a14ef11985fa5a6eef226d9159c2",
+    privateKey4: "11c2e4f1aefcd2b2ad989bf459a18c08ca329e7f44dbcc704c38a1a8c7b48dca",
+    originTokenAddress: "0x8733B8798e3c41aEFe9b1F4E155DCb10BB29e671",
+    provider: "http://localhost:8545",
+    originTokenABI: [
       {
         "constant": true,
         "inputs": [
@@ -175,29 +179,6 @@ var config = function() {
         "inputs": [],
         "name": "unpause",
         "outputs": [],
-        "payable": false,
-        "stateMutability": "nonpayable",
-        "type": "function"
-      },
-      {
-        "constant": false,
-        "inputs": [
-          {
-            "name": "_to",
-            "type": "address"
-          },
-          {
-            "name": "_amount",
-            "type": "uint256"
-          }
-        ],
-        "name": "mint",
-        "outputs": [
-          {
-            "name": "",
-            "type": "bool"
-          }
-        ],
         "payable": false,
         "stateMutability": "nonpayable",
         "type": "function"
